@@ -1,0 +1,28 @@
+:root {
+    /* Ajouter les différentes couleurs.*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body.dark {
+    /* Ajouter les différentes couleurs.*/
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: #5AC8DC;
+    height: 10px;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+    background: #1D1E22;
+}
