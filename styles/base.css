@@ -1,5 +1,5 @@
 :root {
-    /* Ajouter les différentes couleurs.*/
+    --footer-bg: #212035;
 }
 
 * {
@@ -10,19 +10,34 @@
     scroll-behavior: smooth;
 }
 
-body.dark {
-    /* Ajouter les différentes couleurs.*/
-}
-
 ::-webkit-scrollbar {
     width: 5px;
     height: 7px;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #5AC8DC;
     height: 10px;
     border-radius: 20px;
 }
+
 ::-webkit-scrollbar-track {
     background: #1D1E22;
+}
+
+header {
+    background-color: var(--footer-bg);
+    height: 64px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    background-color: var(--footer-bg);
+}
+
+footer p {
+    color: white;
 }

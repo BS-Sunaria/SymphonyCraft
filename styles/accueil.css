@@ -1,0 +1,18 @@
+.section-presentation {
+    background-color: #212035;
+    padding: 50px;
+}
+
+.presentation-user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-avatar {
+    border-radius: 50%;
+}
+
+p {
+    color: white;
+}
